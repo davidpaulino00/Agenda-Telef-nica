@@ -1,0 +1,7 @@
+CREATE TABLE dados(
+  id INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+  nome VARCHAR(100) NULL,
+  telefone CHAR(15) NULL,
+  endereco CHAR(50) NULL,
+  PRIMARY KEY(id)
+ );
